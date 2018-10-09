@@ -18,6 +18,6 @@ function appendKitten(name){
   return newKittens
 }
 function prependKitten(name){
-  var newKittens = kittens.splice(0,0,name)
+  var newKittens = [name,...kittens]
   return newKittens
 }
