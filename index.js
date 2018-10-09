@@ -7,3 +7,6 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 function destructivelyPrependKitten(name) {
   kittens.unshift(name)
 }
+function destructivelyRemoveLastKitten(name){
+  kittens.pop(name)
+}
